@@ -22,6 +22,7 @@ OPERATORS = {
     '+': binary(lambda a, b: a + b),
     '-': binary(lambda a, b: a - b),
     '*': binary(lambda a, b: a * b),
+    '/': binary(lambda a, b: a / b),
 }
 
 

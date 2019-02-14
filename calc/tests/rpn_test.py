@@ -26,3 +26,7 @@ class RPNTest(TestCase):
     def test_execute_multiplication(self):
         '''Should execute a multiplication correctly'''
         self.assert_execute([4, 2, make_operator('*')], 8)
+        
+    def test_execute_division(self):
+        '''Should execute a division correctly'''
+        self.assert_execute([4, 2, make_operator('/')], 2)
